@@ -10,23 +10,23 @@ Requirements and Installation
 ---------------------
 Clone the repo into your computer
 
-...
+```
     git clone https://github.com/yuanlee0325/HTE-robotic-titration-using-computer-vision.git
-...
+```
 
 For working PC:
 * Create a virtual environment
 
-...
+```
 conda create -n ot2 python>=3.9
 conda activate ot2
-...
+```
 
 * Install requirements (mind your Python enviroment)
 
-...
+```
     pip install -r requirements.txt
-...
+```
 
 For Opentrons(OT-2): 
 
@@ -36,19 +36,19 @@ For Opentrons(OT-2):
 [tqdm-4.66.2-py3-none-any.whl](https://www.piwheels.org/simple/tqdm/tqdm-4.66.2-py3-none-any.whl#sha256=f78fd60412e4653a0be68fe9fc5424dc07ed3479bc765a3ab30e782d3d4dbd41)
 [pyasn1-0.5.1-py2.py3-none-any.whl](https://www.piwheels.org/simple/pyasn1/pyasn1-0.5.1-py2.py3-none-any.whl#sha256=238ed5b4e0785e285c20dddcfd46ea3585d0ed25bd174d5737a08813db0de176)
 
-...
+```
 ssh -i ot2_ssh_key root@ROBOT_IP
 mkdir -p /var/data/user_storage/pysmb
 scp -i ot2_ssh_key /local/path/to/package_name.whl/on/computer root@ROBOT_IP:/var/data/user_storage/pysmb
-...
+```
 
 * Navigate to directory where you uploaded the package and install these packages 
 
-...
+```
 ssh -i ot2_ssh_key root@ROBOT_IP
 cd /path/to/packages
 python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
-...
+```
 
 * Upload files within `folder4ot2` to ot2
 (1) Navigate to notebooks using http://ROBOT_IP:48888 or open Opentrons Software, click `device`, `Robot Settings`, `Advanced`, `Launch Jupyter notebook`subsequently
@@ -77,10 +77,11 @@ This project uses the following libraries and frameworks.
 - [Scipy](https://www.nature.com/articles/s41592-019-0686-2)
 - [Pandas](https://pandas.pydata.org)
 - [Matplotlib](https://matplotlib.org)
-- [Scikit-Learn](https://scikit-learn.org; https://scikit-learn.org/stable/about.html#citing-scikit-learn)
+- [Scikit-Learn](https://scikit-learn.org)
 - [PyTorch](https://pytorch.org)
 - [OpenCV](https://opencv.org)
 - [Pysmb](https://pysmb.readthedocs.io/en/latest/)
 - [tqdm](https://doi.org/10.5281/zenodo.14231923)
+- [pyasn1](https://pyasn1.readthedocs.io/en/latest/contents.html)
 
 
