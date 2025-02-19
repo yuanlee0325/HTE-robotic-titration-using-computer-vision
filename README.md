@@ -66,7 +66,7 @@ python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
 ## Documentation
 
 The **video** of this HTE robotic chemical titration could be found in (https://doi.org/10.5281/zenodo.13825238)<br>
-Three different types of chemical titration were provided in the `data` folder, including:<br>
+Three different types of chemical titration were provided in the `demo` folder, including:<br>
 (1) Redox Titration: H<sub>2</sub>O<sub>2</sub> determination titrated by KMnO<sub>4</sub><br>
 (2) Acid-Base Titration: pH indicator using methylene orange<br>
 (3) Complexometric Titration: Ca<sup>2+</sup> titrated by EDTA<br>
