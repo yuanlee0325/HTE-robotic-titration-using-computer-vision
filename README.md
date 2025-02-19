@@ -8,13 +8,13 @@
 
 Requirements and Installation
 ---------------------
-## Clone the repo into your computer
+### Clone the repo into your computer
 
 ```
 git clone https://github.com/yuanlee0325/HTE-robotic-titration-using-computer-vision.git
 ```
 
-## For working PC:
+### For working PC:
 * Create a virtual environment
 
 ```
@@ -28,7 +28,7 @@ conda activate ot2
 pip install -r requirements.txt
 ```
 
-## For Opentrons(OT-2): 
+### For Opentrons(OT-2): 
 
 * Transfer the required `.whl` files to OT-2
 
