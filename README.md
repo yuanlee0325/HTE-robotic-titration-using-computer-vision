@@ -47,7 +47,7 @@ transfer files to the directory
 ```
 scp -i ot2_ssh_key /local/path/to/package_name.whl/on/computer root@ROBOT_IP:/var/data/user_storage/packages
 ```
-install packages to a targeted directory `/var/lib/jupyter/notebooks` 
+install packages to a targeted directory 
 ```
 cd /path/to/packages
 python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
