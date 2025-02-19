@@ -67,8 +67,8 @@ python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
 
 ## Documentation
 
-A [video](https://doi.org/10.5281/zenodo.13825237) of this HTE robotic chemical titration has been provided<br>
-Three different types of chemical titration performed by this workstation were shown in the `Data.zip` folder stored in [Zenodo](https://doi.org/10.5281/zenodo.13929893), including:<br>
+(1) A [video](https://doi.org/10.5281/zenodo.13825237) of this HTE robotic chemical titration has been provided<br>
+(2) Three different types of chemical titration performed by this workstation were shown in the `Data.zip` folder stored in [Zenodo](https://doi.org/10.5281/zenodo.13929893), including:<br>
 (1) Redox Titration: H<sub>2</sub>O<sub>2</sub> determination titrated by KMnO<sub>4</sub><br>
 (2) Acid-Base Titration: pH indicator using methylene orange<br>
 (3) Complexometric Titration: Ca<sup>2+</sup> titrated by EDTA<br>
