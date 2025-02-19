@@ -32,9 +32,9 @@ pip install -r requirements.txt
 
 ##### Install extra packages to OT-2
 
-     [pysmb](https://www.piwheels.org/simple/pysmb/pysmb-1.2.9.1-py3-none-any.whl#sha256=2a20a9d945efc2f6fe86afbe272f6dd4786344aca046b4ca2e98d519db817c20)<br>
-     [tqdm](https://www.piwheels.org/simple/tqdm/tqdm-4.66.2-py3-none-any.whl#sha256=f78fd60412e4653a0be68fe9fc5424dc07ed3479bc765a3ab30e782d3d4dbd41)<br>
-     [pyasn1](https://www.piwheels.org/simple/pyasn1/pyasn1-0.5.1-py2.py3-none-any.whl#sha256=238ed5b4e0785e285c20dddcfd46ea3585d0ed25bd174d5737a08813db0de176)
+[pysmb](https://www.piwheels.org/simple/pysmb/pysmb-1.2.9.1-py3-none-any.whl#sha256=2a20a9d945efc2f6fe86afbe272f6dd4786344aca046b4ca2e98d519db817c20)<br>
+[tqdm](https://www.piwheels.org/simple/tqdm/tqdm-4.66.2-py3-none-any.whl#sha256=f78fd60412e4653a0be68fe9fc5424dc07ed3479bc765a3ab30e782d3d4dbd41)<br>
+[pyasn1](https://www.piwheels.org/simple/pyasn1/pyasn1-0.5.1-py2.py3-none-any.whl#sha256=238ed5b4e0785e285c20dddcfd46ea3585d0ed25bd174d5737a08813db0de176)
 
 use ssh key to get access to OT-2
 ```
