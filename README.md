@@ -23,7 +23,6 @@ conda activate ot2
 ```
 
 ##### Install requirements 
-requirements.txt is located in `/dev/requirements.txt`
 ```
 pip install -r requirements.txt
 ```
