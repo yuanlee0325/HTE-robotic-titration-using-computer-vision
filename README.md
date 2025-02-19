@@ -54,7 +54,7 @@ python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
 ```
 
 ##### Upload files to OT-2<br>
-(1) Navigate to notebooks using *http://ROBOT_IP:48888* or open Opentrons Software, click `device`, `Robot Settings`, `Advanced`, `Launch Jupyter notebook` subsequently<br>
+(1) Navigate to notebooks using `http://ROBOT_IP:48888` or open Opentrons Software, click `device`, `Robot Settings`, `Advanced`, `Launch Jupyter notebook` subsequently<br>
 (2) Click `upload` to upload the essential files saved in the `folder4ot2`<br>
 (3) Replace the robot/PC configuration within the `otsmb_aic.py` located in `/folder4ot2/utils`<br>
 
@@ -64,7 +64,7 @@ python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
 
 ## Documentation
 
-The **video** of this HTE robotic chemical titration could be found in [video](https://doi.org/10.5281/zenodo.13825237)<br>
+The **video** of this HTE robotic chemical titration has been provided [video](https://doi.org/10.5281/zenodo.13825237)<br>
 Three different types of chemical titration were provided in the `Data/demo` folder stored in [Zenodo](https://doi.org/10.5281/zenodo.13929893), including:<br>
 (1) Redox Titration: H<sub>2</sub>O<sub>2</sub> determination titrated by KMnO<sub>4</sub><br>
 (2) Acid-Base Titration: pH indicator using methylene orange<br>
