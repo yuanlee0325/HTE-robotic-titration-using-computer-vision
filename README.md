@@ -43,11 +43,11 @@ create a directory to store these packages
 ```
 mkdir -p /var/data/user_storage/packages
 ```
-transfer files to the directory `/var/data/user_storage/packages`
+transfer files to the directory 
 ```
-scp -i ot2_ssh_key /local/path/to/package_name.whl/on/computer root@ROBOT_IP:/path/to/packages
+scp -i ot2_ssh_key /local/path/to/package_name.whl/on/computer root@ROBOT_IP:/var/data/user_storage/packages
 ```
-install packages to a targeted directory
+install packages to a targeted directory `/var/lib/jupyter/notebooks` 
 ```
 cd /path/to/packages
 python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
@@ -56,7 +56,7 @@ python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
 ##### Upload files to OT-2<br>
 (1) Navigate to notebooks using `http://ROBOT_IP:48888` or open Opentrons Software, click `device`, `Robot Settings`, `Advanced`, `Launch Jupyter notebook` subsequently<br>
 (2) Click `upload` to upload the essential files saved in the `folder4ot2`<br>
-(3) Replace the robot/PC configuration within the `otsmb_aic.py` located in `/folder4ot2/utils`<br>
+(3) Update robot/PC ip configurations within the `otsmb_aic.py` located in `/folder4ot2/utils`<br>
 
 ## Usage 
 
@@ -64,7 +64,7 @@ python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
 
 ## Documentation
 
-The **video** of this HTE robotic chemical titration has been provided [video](https://doi.org/10.5281/zenodo.13825237)<br>
+A [**video**](https://doi.org/10.5281/zenodo.13825237) of this HTE robotic chemical titration has been provided<br>
 Three different types of chemical titration were provided in the `Data/demo` folder stored in [Zenodo](https://doi.org/10.5281/zenodo.13929893), including:<br>
 (1) Redox Titration: H<sub>2</sub>O<sub>2</sub> determination titrated by KMnO<sub>4</sub><br>
 (2) Acid-Base Titration: pH indicator using methylene orange<br>
