@@ -50,9 +50,9 @@ cd /path/to/packages
 python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
 ```
 
-* Upload files within `folder4ot2` to ot2<br>
-(1) Navigate to notebooks using http://ROBOT_IP:48888 or open Opentrons Software, click `device`, `Robot Settings`, `Advanced`, `Launch Jupyter notebook`subsequently<br>
-(2) Click `upload` to upload the essential files (config_files, h2o2, labware, utils, and H2O2_master_Pi_dev2.ipynb) saved in the `folder4ot2`<br>
+* Upload files within **folder4ot2** to ot2<br>
+(1) Navigate to notebooks using *http://ROBOT_IP:48888* or open Opentrons Software, click **device**, **Robot Settings**, **Advanced**, **Launch Jupyter notebook** subsequently<br>
+(2) Click **upload** to upload the essential files (config_files, h2o2, labware, utils, and H2O2_master_Pi_dev2.ipynb) saved in the **folder4ot2**<br>
 (3) Replace the private robot/PC configuration within the `otsmb_aic.py` located in `/folder4ot2/utils`<br>
 
 Procedures 
@@ -63,9 +63,9 @@ Documentation
 -------------
 The **video** of this HTE robotic chemical titration could be found in (https://doi.org/10.5281/zenodo.13825238)<br>
 Three different types of chemical titration were provided in the `data` folder, including:<br>
-(1) Redox Titration: H<sub>2</sub>O<sub>2</sub> determination titrated by KMnO<sub>4</sub><br>
-(2) Acid-Base Titration: pH indicator using methylene orange<br>
-(3) Complexometric Titration: Ca<sup>2+</sup> titrated by EDTA<br>
+##### (1) Redox Titration: H<sub>2</sub>O<sub>2</sub> determination titrated by KMnO<sub>4</sub><br>
+##### (2) Acid-Base Titration: pH indicator using methylene orange<br>
+##### (3) Complexometric Titration: Ca<sup>2+</sup> titrated by EDTA<br>
 
 Citation
 -------------
