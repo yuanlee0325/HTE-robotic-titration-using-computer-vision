@@ -44,11 +44,11 @@ create a directory to store these wheels
 ```
 mkdir -p /var/data/user_storage/packages
 ```
-transfer files to the targeted directory
+transfer files to the directory `/var/data/user_storage/packages`
 ```
-scp -i ot2_ssh_key /local/path/to/package_name.whl/on/computer root@ROBOT_IP:/var/data/user_storage/packages
+scp -i ot2_ssh_key /local/path/to/package_name.whl/on/computer root@ROBOT_IP:/path/to/packages
 ```
-navigate to directory and install packages
+install packages to targeted directory
 ```
 cd /path/to/packages
 python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
