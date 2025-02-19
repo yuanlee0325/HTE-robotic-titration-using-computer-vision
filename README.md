@@ -14,6 +14,7 @@ git clone https://github.com/yuanlee0325/HTE-robotic-titration-using-computer-vi
 ```
 
 #### For working PC:
+##### Copy `dev` to your PC
 ##### Create a virtual environment
 
 ```
