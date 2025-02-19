@@ -1,7 +1,7 @@
 
 # High-throughput(HTE) robotic titration workstation using computer vision
 
-
+## About the project
 * An automated HTE robotic titration using a liquid-handling robot Opentrons(OT-2) and a standard webcam enables in-situ, affordable titration analyses. 
 
 * Its modular design allows adaptability for materials chemsitry and integration into automated workflows, enhancing efficiency in chemical search.
@@ -59,7 +59,7 @@ python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
 (2) Click `upload` to upload the essential files saved in the `folder4ot2`<br>
 (3) Replace the robot/PC configuration within the `otsmb_aic.py` located in `/folder4ot2/utils`<br>
 
-## Procedures 
+## Usage 
 
 ![Schematic image](Schematic_graph.png)
 
@@ -71,9 +71,9 @@ Three different types of chemical titration were provided in the `demo` folder, 
 (2) Acid-Base Titration: pH indicator using methylene orange<br>
 (3) Complexometric Titration: Ca<sup>2+</sup> titrated by EDTA<br>
 
-## Citation
+## Built With
 
-This project uses the following libraries and frameworks. 
+This project uses the following libraries/frameworks. 
 - [NumPy](https://numpy.org)
 - [Scipy](https://www.nature.com/articles/s41592-019-0686-2)
 - [Pandas](https://pandas.pydata.org)
