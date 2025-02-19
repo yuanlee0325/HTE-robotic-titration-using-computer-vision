@@ -21,7 +21,7 @@ conda create -n ot2 python>=3.9
 conda activate ot2
 ```
 
-##### Install requirements (mind your Python enviroment)
+##### Install requirements (mind your Python environment)
 
 ```
 pip install -r requirements.txt
@@ -39,7 +39,7 @@ use ssh key to get access to OT-2
 ```
 ssh -i ot2_ssh_key root@ROBOT_IP
 ```
-create a directory to store these wheels
+create a directory to store these packages
 ```
 mkdir -p /var/data/user_storage/packages
 ```
@@ -47,7 +47,7 @@ transfer files to the directory `/var/data/user_storage/packages`
 ```
 scp -i ot2_ssh_key /local/path/to/package_name.whl/on/computer root@ROBOT_IP:/path/to/packages
 ```
-install packages to targeted directory
+install packages to a targeted directory
 ```
 cd /path/to/packages
 python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
