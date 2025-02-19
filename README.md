@@ -1,7 +1,6 @@
 
 # High-throughput(HTE) robotic titration workstation using computer vision
 
-## About the project
 * An automated HTE robotic titration using a liquid-handling robot Opentrons(OT-2) and a standard webcam enables in-situ, affordable titration analyses. 
 
 * Its modular design allows adaptability for materials chemsitry and integration into automated workflows, enhancing efficiency in chemical search.
