@@ -30,30 +30,34 @@ pip install -r requirements.txt
 
 #### For Opentrons(OT-2): 
 
-* Transfer the required `.whl` files to OT-2
+* Install extra packages to OT-2
 
    [pysmb](https://www.piwheels.org/simple/pysmb/pysmb-1.2.9.1-py3-none-any.whl#sha256=2a20a9d945efc2f6fe86afbe272f6dd4786344aca046b4ca2e98d519db817c20)<br>
    [tqdm](https://www.piwheels.org/simple/tqdm/tqdm-4.66.2-py3-none-any.whl#sha256=f78fd60412e4653a0be68fe9fc5424dc07ed3479bc765a3ab30e782d3d4dbd41)<br>
    [pyasn1](https://www.piwheels.org/simple/pyasn1/pyasn1-0.5.1-py2.py3-none-any.whl#sha256=238ed5b4e0785e285c20dddcfd46ea3585d0ed25bd174d5737a08813db0de176)
 
+Use ssh key to get access to OT-2
 ```
 ssh -i ot2_ssh_key root@ROBOT_IP
-mkdir -p /var/data/user_storage/pysmb
-scp -i ot2_ssh_key /local/path/to/package_name.whl/on/computer root@ROBOT_IP:/var/data/user_storage/pysmb
 ```
-
-* Navigate to directory where you uploaded the package and install these packages 
-
+Create a directory to store these wheels
 ```
-ssh -i ot2_ssh_key root@ROBOT_IP
+mkdir -p /var/data/user_storage/packages
+```
+Transfer files to the targeted directory
+```
+scp -i ot2_ssh_key /local/path/to/package_name.whl/on/computer root@ROBOT_IP:/var/data/user_storage/packages
+```
+Navigate to directory and install packages
+```
 cd /path/to/packages
 python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
 ```
 
-* Upload files within **folder4ot2** to ot2<br>
-(1) Navigate to notebooks using *http://ROBOT_IP:48888* or open Opentrons Software, click **device**, **Robot Settings**, **Advanced**, **Launch Jupyter notebook** subsequently<br>
-(2) Click **upload** to upload the essential files (config_files, h2o2, labware, utils, and H2O2_master_Pi_dev2.ipynb) saved in the **folder4ot2**<br>
-(3) Replace the private robot/PC configuration within the `otsmb_aic.py` located in `/folder4ot2/utils`<br>
+* Upload files within `folder4ot2` to OT-2<br>
+#####  (1) Navigate to notebooks using *http://ROBOT_IP:48888* or open Opentrons Software, click **device**, **Robot Settings**, **Advanced**, **Launch Jupyter notebook** subsequently<br>
+#####  (2) Click **upload** to upload the essential files (config_files, h2o2, labware, utils, and H2O2_master_Pi_dev2.ipynb) saved in the **folder4ot2**<br>
+#####  (3) Replace the private robot/PC configuration within the `otsmb_aic.py` located in `/folder4ot2/utils`<br>
 
 Procedures 
 -------------
