@@ -22,8 +22,8 @@ conda create -n ot2 python>=3.9
 conda activate ot2
 ```
 
-##### Install requirements (mind your Python environment)
-
+##### Install requirements 
+requirements.txt is located in `/dev/requirements.txt`
 ```
 pip install -r requirements.txt
 ```
