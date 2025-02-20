@@ -5,6 +5,7 @@
 
 * Its modular design allows adaptability for materials chemsitry and integration into automated workflows, enhancing efficiency in chemical search.
 
+
 ## Requirements and Installation
 
 #### Clone the repo into your computer
@@ -65,7 +66,7 @@ python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
 
 ![Schematic image](Schematic_graph.png)
 
-## Documentation
+## Example 
 
 #### Video
 A [video](https://doi.org/10.5281/zenodo.13825237) of this HTE robotic chemical titration has been provided<br>
@@ -88,8 +89,8 @@ This project uses the following libraries/frameworks.
 - [Pysmb](https://pysmb.readthedocs.io/en/latest/)
 
 ## Authors
-* [Yuan Li](http://www.linkedin.com/in/yuan-li-4aba90278) [![orcid](https://th.bing.com/th/id/OIF.o1pRMs6nUdAHyV8hUaspoA?rs=1&pid=ImgDetMain)](https://orcid.org/0009-0008-4995-4186)
-* Biplab Dutta
+* [Yuan Li](http://www.linkedin.com/in/yuan-li-4aba90278) [![orcid](https://th.bing.com/th/id/OIF.o1pRMs6nUdAHyV8hUaspoA?rs=1&pid=ImgDetMain)](https://orcid.org/0009-0008-4995-4186) - Yuan.Li@liverpool.ac.uk
+* Biplab Dutta - biplab294@gmail.com
 
 ## License
 Distributed under the Unlicense License. See `LICENSE.txt` for more information.
