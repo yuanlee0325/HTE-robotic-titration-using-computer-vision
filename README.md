@@ -67,7 +67,7 @@ python3 -m pip install --target=/var/lib/jupyter/notebooks package_name.whl
 
 ## Documentation
 
-#### video
+#### Video
 A [video](https://doi.org/10.5281/zenodo.13825237) of this HTE robotic chemical titration has been provided<br>
 #### Data
 Three different types of chemical titration performed by this workstation were shown in the `Data.zip` folder stored in [Zenodo](https://doi.org/10.5281/zenodo.13929893), including:<br>
