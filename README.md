@@ -87,4 +87,10 @@ This project uses the following libraries/frameworks.
 - [OpenCV](https://opencv.org)
 - [Pysmb](https://pysmb.readthedocs.io/en/latest/)
 
+## Authors
+* [Yuan Li](https://www.linkedin.com/yuan-li-PhD-in-automated-chemistry), ![orcid](https://static-00.iconduck.com/assets.00/orcid-icon-2048x2048-q87cnnge.png)[orcid](https://orcid.org/0009-0008-4995-4186)
+* Biplab Dutta
+
+## License
+Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 
