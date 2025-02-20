@@ -86,7 +86,5 @@ This project uses the following libraries/frameworks.
 - [PyTorch](https://pytorch.org)
 - [OpenCV](https://opencv.org)
 - [Pysmb](https://pysmb.readthedocs.io/en/latest/)
-- [tqdm](https://doi.org/10.5281/zenodo.14231923)
-- [pyasn1](https://pyasn1.readthedocs.io/en/latest/contents.html)
 
 
