@@ -1,5 +1,5 @@
 
-# High-throughput (HTE) robotic titration workstation using computer vision
+# High-throughput (HTE) robotic colourimetric titrations using computer vision
 
 * An automated HTE robotic titration using a liquid-handling robot Opentrons(OT-2) and a standard webcam enables in-situ, affordable titration analyses. 
 
