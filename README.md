@@ -89,7 +89,7 @@ This project uses the following libraries/frameworks.
 - [Pysmb](https://pysmb.readthedocs.io/en/latest/)
 
 ## Authors
-* [Yuan Li](http://www.linkedin.com/in/yuan-li-4aba90278) [![orcid](https://th.bing.com/th/id/OIF.o1pRMs6nUdAHyV8hUaspoA?rs=1&pid=ImgDetMain)](https://orcid.org/0009-0008-4995-4186) (Yuan.Li@liverpool.ac.uk)
+* [Yuan Li](http://www.linkedin.com/in/yuan-li-4aba90278) (Yuan.Li@liverpool.ac.uk)
 * Biplab Dutta (biplab294@gmail.com)
 
 ## License
